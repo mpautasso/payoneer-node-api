@@ -1,0 +1,32 @@
+{
+  "name": "payoneer-node-api",
+  "version": "0.0.0",
+  "description": "A wrapper library for Payoneer API using NodeJS",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpautasso/payoneer-node-api.git"
+  },
+  "keywords": [
+    "payoneer",
+    "api"
+  ],
+  "author": "Mauricio Pautasso mauricio.pautasso@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpautasso/payoneer-node-api/issues"
+  },
+  "homepage": "https://github.com/mpautasso/payoneer-node-api#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.16.1",
+    "mocha": "^3.2.0"
+  }
+}
