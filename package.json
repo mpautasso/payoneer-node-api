@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "make-doc": "jsdoc -R README.md -P package.json --recurse main.js src/payoneer.js src/pyrequest.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.16.1",
+    "jsdoc": "^3.4.3",
     "mocha": "^3.2.0"
   },
   "dependencies": {
