@@ -18,7 +18,7 @@
     "payoneer",
     "api"
   ],
-  "author": "Mauricio Pautasso mauricio.pautasso@gmail.com",
+  "author": "Mauricio Pautasso <mauricio.pautasso@gmail.com>, Abel Osorio <abel.m.osorio@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mpautasso/payoneer-node-api/issues"
@@ -30,6 +30,9 @@
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "xml2js": "^0.4.17"
   }
 }
