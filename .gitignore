@@ -57,5 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
-# Auto-generated doc
-out/
+# JSdoc output folder
+doc/
+

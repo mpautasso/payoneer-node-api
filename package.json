@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "make-doc": "jsdoc -R README.md -P package.json --recurse main.js src/payoneer.js src/pyrequest.js"
+    "make-doc": "jsdoc -R README.md -P package.json --recurse main.js src/payoneer.js src/pyrequest.js -d doc"
   },
   "repository": {
     "type": "git",
