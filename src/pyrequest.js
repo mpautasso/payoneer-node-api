@@ -27,6 +27,15 @@ class PYRequest {
     };
   }
 
+  /**
+   * Payoneer post.
+   *
+   * @param {string} mname - The method name (eg 'GetVersion').
+   * @param {Object} parameters - The method parameters.
+   *
+   * @returns {Promise} A new Promise. If there is no errors, the result
+   *                    will be a JavaScript object.
+   */
   post(mname, parameters) {
     let qs = Object.assign(this.credentials, { mname: mname }, parameters);
 
@@ -36,6 +45,8 @@ class PYRequest {
       port: 443,
       qs: qs
     };
+
+    console.log('Request:\n', options, '\n');
 
     let response = rp(options);
 
