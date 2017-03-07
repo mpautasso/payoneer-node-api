@@ -56,7 +56,7 @@ class PYRequest {
           if (error) {
             reject(new Error(error));
           }
-          if (result.PayoneerResponse.Code) {
+          if (result.PayoneerResponse && result.PayoneerResponse.Code) {
             let error = result.PayoneerResponse;
             reject(new Error(`${error.Code} - ${error.Description}`));
           }
